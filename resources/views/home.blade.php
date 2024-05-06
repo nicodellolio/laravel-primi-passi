@@ -7,7 +7,8 @@
 </head>
 <body>
     <div>
-        <h1>Hello World!</h1>
+        <h1>Hello {{ $framework }}!</h1>
+        <h3>I think that {{ $review }}!</h3>
     </div>
 </body>
 </html>
