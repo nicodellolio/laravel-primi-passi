@@ -36,7 +36,18 @@ Route::get('/about', function () {
 
 Route::get('/contacts', function () {
 
-    return view('contacts');
+    $data = [
+        'contacts' => [
+            'Berghius Street, 493, Melbourne (VIC)',
+            'State of Victoria, Australia',
+            '+61 0484 569 342',
+            '+61 0456 123 222',
+            'ilovelaravel@maybe.com',
+            'maybeshouldfrontend@yeah.com'
+        ]
+        ];
+
+    return view('contacts', $data);
 
 })->name('contacts');
 

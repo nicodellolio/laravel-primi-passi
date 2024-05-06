@@ -21,6 +21,8 @@
         </p>
 
     </div>
+
+    <a class="p-5 text-success fs-5 fw-bold" href="/..">Back to the home page</a>
 </body>
 
 </html>
